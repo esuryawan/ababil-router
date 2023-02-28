@@ -1,0 +1,26 @@
+{
+	"private": false,
+	"name": "ababil-router",
+	"version": "1.0.0",
+	"main": "build/index.js",
+	"description": "Ababil Router v6",
+	"scripts": {
+		"build": "rimraf build && tsc"
+	},
+	"keywords": [],
+	"author": "Erick Suryawan <erick.suryawan@gmail.com>",
+	"license": "Ababil",
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-router": "^6.8.2",
+		"react-router-dom": "^6.8.2"
+	},
+	"devDependencies": {
+		"@types/react": "^18.0.28",
+		"@types/react-dom": "^18.0.11",
+		"@types/react-router": "^5.1.20",
+		"@types/react-router-dom": "^5.3.3",
+		"typescript": "^4.9.5"
+	}
+}
